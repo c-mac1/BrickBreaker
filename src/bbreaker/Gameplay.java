@@ -15,6 +15,10 @@ import javax.swing.JPanel;
 
 public class Gameplay extends JPanel implements KeyListener, ActionListener {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// properties
 	private boolean play = false;
 	private int score = 0;
